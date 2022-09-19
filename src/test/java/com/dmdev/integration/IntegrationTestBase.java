@@ -10,7 +10,7 @@ public abstract class IntegrationTestBase {
     private static final String CREATE_SQL = """
             CREATE TABLE IF NOT EXISTS users
             (
-                id INT AUTO_INCREMENT PRIMARY KEY ,
+                id INT AUTO_INCREMENT PRIMARY KEY,
                 name VARCHAR(64),
                 birthday DATE NOT NULL ,
                 email VARCHAR(64) NOT NULL UNIQUE ,
